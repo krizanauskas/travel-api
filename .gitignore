@@ -1,0 +1,17 @@
+*.log
+
+.DS_Store
+Thumbs.db
+
+.idea/
+.vscode/
+*.swp
+
+uploads/*
+attractions/*
+
+# Ignore everything in the configs/ directory
+configs/*
+
+# But don't ignore example.config.yaml
+!configs/example.config.yaml
