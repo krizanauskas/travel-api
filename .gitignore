@@ -8,7 +8,6 @@ Thumbs.db
 *.swp
 
 uploads/*
-attractions/*
 
 # Ignore everything in the configs/ directory
 configs/*
