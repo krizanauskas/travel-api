@@ -28,4 +28,4 @@ jobs:
 
     - name: Deploy to Docker Swarm
       run: |
-        docker service update --image ghcr.io/${{ github.actor }}/tourpointer:latest tourpointer_tourpoiner-api
+        docker service update --image ghcr.io/${{ github.actor }}/tourpointer:latest tourpointer_tourpointer-api
